@@ -1,0 +1,52 @@
+.div-major{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    width: 100%;
+    min-height: 90vh;
+    border-radius: 10px;
+}
+.div-complete{
+    width: 100%;
+    height: fit-content;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    margin:  15px 15px 0px 15px;
+    border-radius: 5px;
+}
+.div-secondary {
+    width: 90%;
+    
+}
+.p-major{
+    width: 80%;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 5px 0px 5px 5px;
+}
+.p-secondary{
+    width: 80%;
+    font-size: 1rem;
+    font-style: italic;
+    color: dimgray;
+    margin-left: 15px;
+}
+.container-button{
+    margin-left:  4%;
+
+}
+.button-delete{
+    border: none;
+    font-size: xxx-large;
+    background-color: azure;
+}
+.button-delete:hover{
+    color: brown;
+}
+@media (max-width: 840px) {
+    .div-secondary {
+        width: 80%;
+        
+    }
+}

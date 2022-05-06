@@ -1,0 +1,54 @@
+.container-buttona{
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+}
+.button-primary{
+    background-color: rgb(210, 207, 212);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    font-size: larger;
+    font-style: initial;
+    padding: 15px 5px;
+}
+.button-primary:hover {
+    background-color: rgb(105, 199, 102);
+    color: rgb(252, 252, 252);
+
+}
+@media (min-width: 700px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 45px;
+    }
+}
+@media (min-width: 800px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 60px;
+    }
+}
+@media (min-width: 900px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 70px;
+    }
+}
+@media (min-width: 1100px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 80px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 90px;
+    }
+}
+@media (min-width: 1300px) {
+    .container-buttona {
+        bottom: 0px;
+        right: 100px;
+    }
+}
